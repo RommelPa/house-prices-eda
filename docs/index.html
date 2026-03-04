@@ -14,7 +14,7 @@ max-width:900px;
 line-height:1.6;
 }
 
-h1,h2,h3{
+h1,h2{
 color:#2c3e50;
 }
 
@@ -29,14 +29,6 @@ border-radius:8px;
 margin-top:15px;
 }
 
-a{
-color:#1a73e8;
-text-decoration:none;
-}
-
-a:hover{
-text-decoration:underline;
-}
 </style>
 
 </head>
@@ -46,46 +38,22 @@ text-decoration:underline;
 <h1>House Prices — Exploratory Data Analysis</h1>
 
 <p>
-This project explores the <b>Ames Housing Dataset</b> to understand the main factors that influence residential property prices.
-The analysis focuses on data quality assessment, feature exploration, statistical relationships, and outlier detection before building predictive models.
+This project explores the Ames Housing dataset to identify the main factors influencing residential property prices.
+The analysis focuses on data quality assessment, feature exploration, statistical relationships, and outlier detection.
 </p>
 
 <div class="section">
 
 <h2>Dataset</h2>
 
-<p>
-Dataset: Ames Housing Dataset<br>
-Source: Kaggle House Prices Competition
-</p>
-
-<p>
-The dataset contains information about residential home sales in Ames, Iowa with <b>81 features describing house characteristics</b>.
-</p>
-
-</div>
-
-<div class="section">
-
-<h2>Project Workflow</h2>
-
 <div class="card">
 
-<ol>
-
-<li>Data Overview</li>
-
-<li>Data Quality Audit</li>
-
-<li>Feature Distribution Analysis</li>
-
-<li>Correlation Analysis</li>
-
-<li>Outlier Detection</li>
-
-<li>EDA Summary and Insights</li>
-
-</ol>
+<p>
+Dataset: Ames Housing Dataset<br>
+Source: Kaggle House Prices Competition<br>
+Observations: 1460<br>
+Features: 81
+</p>
 
 </div>
 
@@ -99,15 +67,15 @@ The dataset contains information about residential home sales in Ames, Iowa with
 
 <ul>
 
-<li><b>OverallQual</b> (overall house quality) is the strongest predictor of house prices.</li>
+<li>House quality (OverallQual) is the strongest predictor of house prices</li>
 
-<li><b>GrLivArea</b> (above ground living area) shows strong positive correlation with price.</li>
+<li>Living area (GrLivArea) strongly correlates with price</li>
 
-<li>Several variables related to <b>house size</b> strongly influence property value.</li>
+<li>Several size-related variables influence house value</li>
 
-<li><b>Neighborhood</b> plays an important role in price variation across properties.</li>
+<li>Neighborhood significantly affects property prices</li>
 
-<li>Extreme outliers were detected and removed to improve analysis robustness.</li>
+<li>Outliers were detected and removed</li>
 
 </ul>
 
@@ -117,62 +85,37 @@ The dataset contains information about residential home sales in Ames, Iowa with
 
 <div class="section">
 
-<h2>Project Structure</h2>
+<h2>Project Workflow</h2>
 
 <div class="card">
 
-<pre>
+<ol>
 
-house-prices-eda
-│
-├── data
-├── notebooks
-├── src
-├── reports
-└── docs
+<li>Data Overview</li>
+<li>Data Quality Audit</li>
+<li>Feature Distributions</li>
+<li>Correlation Analysis</li>
+<li>Outlier Detection</li>
+<li>EDA Summary</li>
 
-</pre>
-
-</div>
+</ol>
 
 </div>
-
-<div class="section">
-
-<h2>View the Full Analysis</h2>
-
-<p>
-You can explore the complete exploratory analysis here:
-</p>
-
-<p>
-<a href="../reports/06_eda_summary.html">Open EDA Report</a>
-</p>
 
 </div>
 
 <div class="section">
 
-<h2>GitHub Repository</h2>
+<h2>Explore the Project</h2>
 
 <p>
-View the full project code and documentation:
+<a href="06_eda_summary.html">View Full EDA Report</a>
 </p>
 
 <p>
 <a href="https://github.com/RommelPa/house-prices-eda">
 GitHub Repository
 </a>
-</p>
-
-</div>
-
-<div class="section">
-
-<h2>Author</h2>
-
-<p>
-Data Science Portfolio Project
 </p>
 
 </div>
