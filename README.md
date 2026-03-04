@@ -49,4 +49,4 @@ Key insights from the analysis:
 
 You can view the full analysis here:
 
-reports/eda_report.html
+reports/06_eda_summary.html
